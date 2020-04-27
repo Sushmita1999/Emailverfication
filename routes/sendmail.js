@@ -34,15 +34,15 @@ router.post("/find",async(req,res)=>
                 port:587,
                 secure:false,
                 auth:{
-                    user:'sushmitashetty2017@gmail.com',
-                    pass:'goodluck123'
+                    user:'jdbvhbvhjb',
+                    pass:'bdjbhajmscdsvfjnj'
                 },
                 tls:{rejectUnauthorized:false
                 }
             })
             console.log("transporter is also done");
             const mailoptions={
-                from:"sushmitashetty2017@gmail.com",
+                from:"sdnkjbcnjbfkjenwjkaf",
                 to:`${emailid.email}`,
                 subject:"Email verification",
                 text:`http://localhost:3000/verify\n\nThe token is ${token}`,
